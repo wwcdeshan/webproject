@@ -1,1 +1,219 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel = "stylesheet" href = "footer.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<style>
+body {
+    display:grid;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:"main" "footer";
+    overflow-x:hidden;
+    background:#F5F7FA;
+    min-height:100vh;
+    font-family: 'Open Sans', sans-serif;
+    .footer {
+        z-index: 1;
+        --footer-background:#ED5565;
+        display:grid;
+        position: relative;
+        grid-area: footer;
+        min-height:12rem;
+        .bubbles {
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            height:1rem;
+            background:var(--footer-background);
+            filter:url("#blob");
+            .bubble {
+                position: absolute;
+                left:var(--position, 50%);
+                background:var(--footer-background);
+                border-radius:100%;
+                animation:bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s),
+                    bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+                transform:translate(-50%, 100%);
+            }
+        }
+        .content {
+            z-index: 2;
+            display:grid;
+            grid-template-columns: 1fr auto;
+            grid-gap: 4rem;
+            padding:2rem;
+            background:var(--footer-background);
+            a, p {
+                color:#F5F7FA;
+                text-decoration:none;
+            }
+            b {
+                color:white;
+            }
+            p {
+                margin:0;
+                font-size:.75rem;
+            }
+            >div {
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+                >div {
+                    margin:0.25rem 0;
+                    >* {
+                        margin-right:.5rem;
+                    }
+                }
+                .image {
+                    align-self: center;
+                    width:4rem;
+                    height:4rem;
+                    margin:0.25rem 0;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}
+ 
+@keyframes bubble-size {
+    0%, 75% {
+        width:var(--size, 4rem);
+        height:var(--size, 4rem);
+    }
+    100% {
+        width:0rem;
+        height:0rem;
+    }
+}
+@keyframes bubble-move {
+    0% {
+        bottom:-4rem;
+    }
+    100% {
+        bottom:var(--distance, 10rem);
+    }
+}
+ 
+</style>
+.main
+.footer
+    .bubbles
+        - for (var i = 0; i < 128; i++) //Small numbers looks nice too
+            .bubble(
+                style=`--size:${2 + Math.random() * 4}rem; --distance:${6 + Math.random() * 4}rem; --position:${-5 + Math.random() * 110}%; --time:${2 + Math.random() * 2}s; --delay:${-1 * (2 + Math.random() * 2)}s;`
+            )
+    .content
+        
+            p ©2019 Not Really
+svg(style="position:fixed; top:100vh")
+    defs
+        filter#blob
+            feGaussianBlur(
+                in="SourceGraphic",
+                stdDeviation="10",
+                result="blur"
+            )
+            feColorMatrix(
+                in="blur",
+                mode="matrix",
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9",
+                result="blob"
+            )
+            feComposite(in="SourceGraphic", in2="blob", operator="atop")
+  <footer>
+    <div class="footer-gray">
+      <div class="footer-custom">
+        <div class="footer-lists">
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">section 1</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+            </ul>
+            <h6 class="ftr-hdr">section 2</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">section 3</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">section 4</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">section 5</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="https://www.google.com/search?q=google&oq=googl&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.1442j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow">Text</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-email">
+          <h6 class="ftr-hdr">Sign up for the stupid newsletter</h6>
+          <div id="ftr-email" class="ftr-email-form">
+            <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
+              <div class="error">Please enter a valid email address</div>
+              <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Enter email address" />
+              <input type="submit" class="button" value="SUBMIT" />
+              <input type="hidden" name="country_iso2" value="">
+              <input type="hidden" name="language_iso2" value="en">
+              <input type="hidden" name="site_domain" value="art.com">
+              <input type="hidden" name="email_acq_source" value="01-000001">
+              <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
+              <input type="hidden" name="brand_id" value="ART">
+              <input type="hidden" name="_ri_" value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
+            </form>
+          </div>
+          <div class="ftr-email-privacy-policy"></div>
+        </div>
+        <div class="footer-social">
+          <h6 class="ftr-hdr">Rajitha malli tamai hodatama kare xD</h6>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/NSBM" title="Facebook" onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
+                <img width="24" height="24" alt="Like us on Facebook" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://pinterest.com/artdotcom/NSBM" target="_blank">
+                <img width="24" height="24" alt="Follow us on Pinterest" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://instagram.com/NSBM/">
+                <img width="24" height="24" alt="Follow us on Instagram" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/NSBM" title="Twitter" onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+                <img width="67" alt="Follow us on Twitter" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-legal">
+          <p>&copy; Chaminda.exe. All Rights Reserved. | <a href="www.NSBM.ac.lk" rel="nofollow">Privacy Policy</a> | <a href="www.NSBM.ac.lk" rel="nofollow">Terms of Use</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
