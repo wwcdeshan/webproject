@@ -5,18 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+.header {
+  background-color: #666;
+}
 table, th, td {
   border:1px white;
 }
-.donate{
-border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 10px;
-  color: black;
-  background-color: red;
-  text-align: center;
-  cursor: pointer;
+.donate {
+  background: #e00b27;
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.4) 100%),
+              -webkit-linear-gradient(left, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 100%),
+              linear-gradient(to right, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+  
 }
 h1 {
 text-align:center;
@@ -149,13 +158,14 @@ h3{
 </head>
 <body>
 <<hr style="height:10px" color="#A7B10B">
-
+<div class="header">
 <table style="width:100%">
 <tr>
 <td> lorgo </td>
 <td> <h1>ZERO HUNGER</h1></td>
-<td> <div id="donate" class="donate" style="font-size:20px"><button 2>Donate</button 2></div></td>
+<td> <a href="#" class="donate">DONATE</a></td>
 </table>
+</div>
 <hr style="height:10px" color="#524E4D">
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
