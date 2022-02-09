@@ -151,6 +151,75 @@ h3{
   color: #ebdc0e;
 }
 
+.Howmany-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iisd.org/sites/default/files/styles/banner_mobile/public/2021-07/global-hunger-pledge.jpg?h=790be497&itok=eD_S9hBk");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.whyhungry-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.agrivi.com/wp-content/uploads/2016/08/Blog-Zero-Hunger.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.whyshould-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.classy.org/wp-content/uploads/2021/05/blog-wfpzerohunger-header.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.end-bar {
+  padding: 20px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.end-bar:hover {
+    opacity: 0.7;
+}
+body {
+  font: 20px "Helvetica";
+}
+
+a {  
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.donate {
+  background: #e00b27;
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.4) 100%),
+              -webkit-linear-gradient(left, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 100%),
+              linear-gradient(to right, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+  
+}
+
+
+
 
 
 
@@ -173,6 +242,64 @@ h3{
 <a href="#" class="fa fa-linkedin"></a>
 <a href="#" class="fa fa-youtube"></a>
 <hr style="height:10px" color="#524E4D">
+
+<div class="howmany-image">
+  <div class="hero-text">
+    <h2 style="font-size:50px">How Many People GO</h2>
+    <p style="font-size:50px" > HUNGRY ?</p>
+  </div>
+</div>
+<div style="margin-left:80px;"> </div>
+<hr style="height:10px" color="blue">
+<p>
+  <h3>
+    More than 690 million people were undernourished in 2019, mainly in Asia and Africa. People experiencing moderate food insecurity are typically unable to eat a healthy,
+    balanced diet on a regular basis becouse of income or other resource constraints. if these trends continue, an estimated 840 million people will go hungry by 2030. <br>
+    The situation is likely to deteriorate even further owing to COVID-19.
+  </h3>
+</p>
+<hr style="height:10px" color="blue">
+
+<div class="whyhungry-image">
+  <div class="hero-text">
+    <h2 style="font-size:50px"> Why Are There So Many </h2>
+    <p style="font-size:50px" > HUNGRY PEOPLE ?</p>
+  </div>
+</div>
+<div style="margin-left:80px;"> </div>
+
+<hr style="height:10px" color="#17EACC">
+<p>
+  <h3>
+    Along with confilct, climate shocks and the locust crisis, the pandomic poses an additional threat to food systems. Civil insecurity and declining food production have
+    all contributed to food scarcity and high food prices.
+    <br>
+    Investment in the agriculture sector is critical for reducing hunger and poverty. improving food security. creating employment and building resilience to disasters and 
+    shocks.
+  </h3>
+</p>
+<hr style="height:10px" color="#17EACC">
+
+<div class="whyshould-image">
+  <div class="hero-text">
+    <h2 style="font-size:50px"> Why Should I Care ? </h2>
+  </div>
+</div>
+<div style="margin-left:80px;"> </div>
+
+<hr style="height:10px" color="#691271">
+<p>
+  <h3>
+    We will want our families to have enough food to eat what is safe and nutritious. A world with zero hunger can positively impact our economies,
+    health, aducation, equality and social devalopment.
+    <br>
+    It's key piece of building a better future for everyone. Additionally, with hunger limitng human development, We will not be able to achive  the other sustainable
+    development goals such as education, health and gender equality.
+  </h3>
+</p>
+<hr style="height:10px" color="#691271">
+
+
 
 
 
