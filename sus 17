@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .column{
+        float: left;
+        width: 22.22%;
+        padding:5px;
+    }
+    .row::after{
+        content: "";
+        clear:both;
+        display: table;
+    }
+</style>
+<body>
+          <h1>Sustainable Development</h1>
+                  <h2>THE 17 GOALS</h2>
+    <!--photo grid-->
+    <div class="row" >
+            <div class="column">
+               <img src="C:\Users\AKASHA\Desktop\sus\1.png" alt="no poverty"   style="width: 100%"  >
+            </div>
+            <div class="column">
+              <img src="C:\Users\AKASHA\Desktop\sus\2.png" alt="zero hungry"  style="width: 100%" >
+            </div>
+           <div class="column">
+              <img src="C:\Users\AKASHA\Desktop\sus\3.png" alt="GOOD HEALTH AND WELL-BEING"  style="width: 100%" >
+            </div>
+           <div class="column">
+               <img src="C:\Users\AKASHA\Desktop\sus\4.png" alt="QUALITY EDUCATION"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\5.png" alt="GENDER EQUALITY"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\6.png" alt="CLEAN WATER AND SANITATION"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\7.png" alt="AFFORDABLE AND CLEAN ENERGY"  style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\8.png" alt="DECENT WORK AND ECONOMIC GROWTH"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\9.png" alt="INDUSTRY,INNOVATION AND INFRASTRUCTURE"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\10.png" alt="REDUCED INEQUALITIES"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\11.png" alt="SUSTAINABLE CITIES AND COMMUNITIES"  style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\12.png" alt="Responsible consumption"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\13.png" alt="Climate action"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\14.png" alt="Life underwater"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\15.png" alt="Life on land"  style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\16.png" alt="Peace & justice"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\17.png" alt="Partnership"   style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="C:\Users\AKASHA\Desktop\sus\18.jpg" alt="Sustainable"   style="width: 100%">
+            </div>
+    </div>
+
+</body>
+</html>
