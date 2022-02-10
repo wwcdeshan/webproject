@@ -1,6 +1,22 @@
 <html>
 <head>
+<title> Zero Hunger </title>
 </head>
 <body>
+<h1> Home </h1>
+<a href=""> Donate </a>
+<img src=" " alt=" ">
+<p>
+Short description about our project
+<br>
+What we do
+</p>
+<p>
+Details about children houses
+</P>
+<img src=" map " alt=" ">
+<p>
+About donation areas
+</P>
 </body>
 </html>
