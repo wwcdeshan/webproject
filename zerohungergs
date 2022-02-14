@@ -1,9 +1,22 @@
 <html>
 <head>
 <title> Zero Hunger </title>
+<style>
+    h1{
+        text-align: center;
+        color:aquamarine;
+    }
+    .head {
+       background-color:blueviolet;
+    }
+</style>
 </head>
 <body>
-<h1> Home </h1>
+    <hr style="height:10px" color="red">
+    <div class="head">
+<h1> Home  </h1>
+</div>
+<hr style="height:10px" color="pink">
 <a href=""> Donate </a>
 <img src=" " alt=" ">
 <p>
