@@ -9,12 +9,20 @@
     .head {
        background-color:blueviolet;
     }
+    .log 
+{
+
+}
 </style>
 </head>
 <body>
     <hr style="height:10px" color="red">
-    <div class="head">
-<h1> Home  </h1>
+ <div class="head">
+<h1> Project </h1>
+<div class="log">
+    <Button style="background-color: red; color: blue;"> LOG IN </Button>
+    <button style="background-color: red; color: blue;"> SIGN IN</button>
+</div>
 </div>
 <hr style="height:10px" color="pink">
 <a href=""> Donate </a>
