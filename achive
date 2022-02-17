@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .header {
-  background-color: #666;
+  background-color: rgb(233, 211, 241);
 }
 table, th, td {
   border:1px white;
@@ -230,7 +230,7 @@ a {
 <div class="header">
 <table style="width:100%">
 <tr>
-<td> logo </td>
+<td> <img src="C:\Users\Chathumal\Desktop\sus\sustainability.PNG" width="40%" height="100"> </td>
 <td> <h1>ZERO HUNGER</h1></td>
 <td> <a href="#" class="donate">DONATE</a></td>
 </table>
