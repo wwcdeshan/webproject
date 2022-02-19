@@ -21,6 +21,9 @@
      .subhead{
         font-family: Georgia (serif); 
         text-align: center;
+         text-shadow: 2px 2px 4px #B1D8B7;
+        text-decoration: underline ;
+        text-decoration-color: black;
      }
      .topnav {
   overflow: hidden;
@@ -90,6 +93,51 @@
 .fa-instagram {
   background: #125688;
   color: white;
+}
+.para1{
+    background-color: none;
+  width: 450px;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+}
+.para2{
+    background-color: none;
+  width: 450px;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+}
+.para3{
+    background-color: #B1D8B7;
+  width: 100%;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+}
+.grid-container {
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-gap:1px;
+ padding: 10px;
+}
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.para1{
+    grid-row: 1/span 2;
+}
+p2{
+ color: #4926ca;
+}
+.para4{
+    background-color: #2F5233;
+  width: 100%;
+  border: none;
+  padding: 50px;
+  margin: 20px; 
 }
 
 </style>
