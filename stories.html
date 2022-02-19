@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>stories</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\MX\Desktop\webproject\style\storiesstyle.css">
+</head>
+<body>
+	<div class="header">
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE1.png" class="image1" width="100" height="100">
+		<div class="container">
+			<a href="C:\Users\MX\Desktop\webproject\donate.html">DONATE &#9829</a>
+			<a href="C:\Users\MX\Desktop\webproject\connect.html">CONNECT</a>
+			<a class="active" href=" ">STORIES</a>
+			<a href="C:\Users\MX\Desktop\webproject\about.html">ABOUT</a>
+		</div>
+		<marquee behavior="alternate">The ZeroHungry Project</marquee>
+	</div>
+	<div class="images">
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE3.JPEG" class="image" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE14.jpeg" class="image" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE15.jpg" class="image" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE16.jpg" class="image" >
+	</div>
+	<div class="body1">
+		<br>
+		<a href="C:\Users\MX\Desktop\webproject\ourpartners.html"><h1><b><u>OUR PARTERS</u></b></h1></a>
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE4.png" class="image4" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE5.png" class="image5" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE6.jpg" class="image6" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE7.jpg" class="image7" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE8.png" class="image8" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE9.jfif" class="image9" >
+	</div>
+	<div class="body2">
+		<br>
+		<a href="C:\Users\MX\Desktop\webproject\wehelpthem.html"><h1><b><u>WE HELP THEM</u></b></h1></a>
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE10.jfif" class="image10" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE11.jfif" class="image11" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE12.jfif" class="image12" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE13.jpg" class="image13" >
+	</div>
+	<div class="footer">
+		<br>
+		<h2>Add impact to your index.</h2>
+		<h3>Subscribe to our Newsletter!</h3>
+		<div class="form1">
+			<input type="text" name="fname" placeholder="Enter your name here..">
+			<input type="text" name="femail" placeholder="Enter your email here..">
+			<input type="submit" name="fsignup" value="SUBSCRIBE">
+		</form>
+		<h5><p>CONTACT US   VOLUNTEER	 CAREERS   IN THE NEWS    MERCH</p></h5>
+		<h6>
+			<p>The ZeroHungry project is a registered program in our University.</p>
+			<p>@2021 | NSBM Green University,Pitipana,Homagama,Sri Lanka.</p>
+		</h6>
+	</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+ 			var i;
+  			var x = document.getElementsByClassName("image");
+  			for (i = 0; i < x.length; i++) {
+    		x[i].style.display = "none";  
+  		}
+  		myIndex++;
+  		if (myIndex > x.length) {
+  			myIndex = 1
+  		}    
+  		x[myIndex-1].style.display = "block";  
+  		setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+
+</body>
+</html>
