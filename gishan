@@ -1,43 +1,52 @@
 <html>
-<head>
-<title> Zero Hunger </title>
-<style>
-    h1{
-        text-align: center;
-        color:aquamarine;
-    }
-    .head {
-       background-color:blueviolet;
-    }
-    .log 
-{
-
+    <head>
+        <style>
+            form1 input[type="text"]{
+	height: 20px;
+	padding:12px 20px;
+	margin: 8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	color: white;
+	background-color: #D5D6EA;
+} 
+.form1 input[type="submit"]{
+	height: 30px;
+	width: 100px;
+	background-color: #f3430d;
+	color:white;
+	padding:0px 0px;
+	margin:8px 0;
+	cursor:pointer;
+	font-size:14px;
+	border-radius: 0px;
 }
-</style>
-</head>
-<body>
-    <hr style="height:10px" color="red">
- <div class="head">
-<h1> Project </h1>
-<div class="log">
-    <Button style="background-color: red; color: blue;"> LOG IN </Button>
-    <button style="background-color: red; color: blue;"> SIGN IN</button>
-</div>
-</div>
-<hr style="height:10px" color="pink">
-<a href=""> Donate </a>
-<img src=" " alt=" ">
-<p>
-Short description about our project
-<br>
-What we do
-</p>
-<p>
-Details about children houses
-</P>
-<img src=" map " alt=" ">
-<p>
-About donation areas
-</P>
-</body>
+.footer{
+	text-align:center;
+	height: 600px;
+	background-color: #074994;
+	color: white;
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="footer">
+            <img src="C:\Users\Chathumal\Desktop\sus\sustainability.PNG" alt="logo" width="30%" height="50%">
+            <br>
+            <h2>Add impact to your index.</h2>
+            <h3>Subscribe to our Newsletter!</h3>
+            <div class="form1">
+                <input type="text" name="fname" placeholder="Enter your name here..">
+                <input type="text" name="femail" placeholder="Enter your email here..">
+                <input type="submit" name="fsignup" value="SUBSCRIBE">
+            </form>
+            <h5><p>CONTACT US   VOLUNTEER	 CAREERS   IN THE NEWS    MERCH</p></h5>
+            <h6>
+                <p>The ZeroHungry project is a registered program in our University.</p>
+                <p>@2021 | NSBM Green University,Pitipana,Homagama,Sri Lanka.</p>
+            </h6>
+        </div>
+    </body>
 </html>
