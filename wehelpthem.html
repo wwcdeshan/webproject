@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>we help them</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\MX\Desktop\webproject\style\wehelpthemstyle.css">
+	
+</head>
+<body>
+	<div class="header">
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE1.png" class="image1" width="100" height="100">
+		<div class="container">
+			<a href="C:\Users\MX\Desktop\webproject\donate.html">DONATE &#9829</a>
+			<a href="C:\Users\MX\Desktop\webproject\connect.html">CONNECT</a>
+			<a href="C:\Users\MX\Desktop\webproject\stories.html">STORIES</a>
+			<a href="C:\Users\MX\Desktop\webproject\about.html">ABOUT</a>
+		</div>
+		<marquee behavior="alternate">The ZeroHungry Project</marquee>
+	</div>
+	<div class="images">
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE31.jfif" class="image" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE32.jpg" class="image" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE33.jpg" class="image" >
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE34.jpg" class="image" >
+	</div>
+	<div class="table1">
+		<br>
+		<h2>Nursing Homes</h2>
+		<table>
+			<tr>
+				<td><b>Name</b></td>
+				<td><b>Address</b></td>
+				<td><b>Tele no:</b></td>
+				<td><b>Members</b></td>
+			</tr>
+			<tr>
+				<td>Biso Kumarihami Wadihiti Niwasa</td>
+				<td>Teldeniya - Werapitiya Rd, Sri lanka</td>
+				<td>0312 245 051</td>
+				<td>F-60 M-90</td>
+			</tr>
+			<tr>
+				<td>Mawpiyasewana Wadihiti Niwasaya</td>
+				<td>Boralesgamuwa</td>
+				<td>0112 239 521</td>
+				<td>F-30 M-10</td>
+			</tr>
+		</table>
+	</div>
+	<div class="table2">
+		<br>
+		<h2>Children Homes</h2>
+		<table>
+			<tr>
+				<td><b>Name</b></td>
+				<td><b>Address</b></td>
+				<td><b>Tele no:</b></td>
+				<td><b>Members</b></td>
+			</tr>
+			<tr>
+				<td>Sevana Special School and Chil Care Center</td>
+				<td>389 Kotte Rd Sri Jayawardenepura Kotte 10100</td>
+				<td>0112 852 571</td>
+				<td>F-20 M-20</td>
+			</tr>
+			<tr>
+				<td>A C C C Child Development Center</td>
+				<td>No 39 Thalagolla Ragama</td>
+				<td>0112 958 267 / 0777 318 682</td>
+				<td>F-10 M-20</td>
+			</tr>
+			<tr>
+				<td>B S Jayawardhana Child Development Center</td>
+				<td>Weligampitiya Ja-Ela</td>
+				<td>0112 230 520</td>
+				<td>F-20</td>
+			</tr>
+		</table>
+	</div>
+	<div class="table3">
+		<br>
+		<h2>Schools</h2>
+	</div>
+	<div class="table3">
+		<br>
+		<h2>People</h2>
+	</div>
+
+
+
+	<div class="footer">
+		<br>
+		<h2>Add impact to your index.</h2>
+		<h3>Subscribe to our Newsletter!</h3>
+		<div class="form1">
+			<input type="text" name="fname" placeholder="Enter your name here..">
+			<input type="text" name="femail" placeholder="Enter your email here..">
+			<input type="submit" name="fsignup" value="SUBSCRIBE">
+		</form>
+		<h5><p>CONTACT US   VOLUNTEER	 CAREERS   IN THE NEWS    MERCH</p></h5>
+		<h6>
+			<p>The ZeroHungry project is a registered program in our University.</p>
+			<p>@2021 | NSBM Green University,Pitipana,Homagama,Sri Lanka.</p>
+		</h6>
+	</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+ 			var i;
+  			var x = document.getElementsByClassName("image");
+  			for (i = 0; i < x.length; i++) {
+    		x[i].style.display = "none";  
+  		}
+  		myIndex++;
+  		if (myIndex > x.length) {
+  			myIndex = 1
+  		}    
+  		x[myIndex-1].style.display = "block";  
+  		setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+</html>
