@@ -138,6 +138,8 @@ p2{
   border: none;
   padding: 50px;
   margin: 20px; 
+  font-family: Sans-serif; 
+  color: #ddd;
 }
 
 </style>
