@@ -146,10 +146,9 @@
 .media{
 	position: initial;
 }
-
-		.footer{
-			text-align:center;
-			height: 280px;
-			background-color: #046307;
-			color: white;
-		}
+.footer{
+	text-align:center;
+	height: 330px;
+	background-color: #046307;
+	color: white;
+}
