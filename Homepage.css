@@ -1,6 +1,9 @@
 .socialmedia {
     text-align: right;
 }
+.log{
+	position: absolute;	
+}
 .fa {
     padding: 5px;
     font-size: 100px;
@@ -152,3 +155,24 @@ form1 input[type="text"]{
   .fa-instagram {
     color: white;
   }
+
+  .imbut{
+	background-color: red;
+	color: white;
+
+
+  }
+  .log a{
+	float: left;
+	color:rgb(243, 239, 239);
+	border: 1px solid black;
+	text-align:center;
+	text-decoration:none;
+	padding:5px;
+	margin: 10px;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius:4px;
+	background-color: #d30f0f;  
+  }
+
