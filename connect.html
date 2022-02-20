@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>connect</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\MX\Desktop\webproject\style\connectstyle.css">
+</head>
+<body>
+	<div class="header">
+		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE1.png" class="image1" width="100" height="100">
+		<div class="container">
+			<a href="C:\Users\MX\Desktop\webproject\donate.html">DONATE &#9829</a>
+			<a class="active" href=" ">CONNECT</a>
+			<a href="C:\Users\MX\Desktop\webproject\stories.html">PROJECT</a>
+			<a href="C:\Users\MX\Desktop\webproject\about.html">HOME</a>
+		</div>
+		<marquee behavior="alternate">The ZeroHungry Project</marquee>
+	</div>
+
+	<div class="body1">
+		<div class="topic">
+			Get in touch.Let us know what we can do better,and how we can help you!
+		</div>
+	<div class="contactbox">
+		<form name="frm2" method="POST" onSubmit="validate();">
+			<h2>CONNECT WITH US.</h2>
+			<input type="text" name="name" placeholder="Enter your name">
+			<input type="text" name="address1" placeholder="street address , P.O. box ,etc">
+			<input type="text" name="address2" placeholder="City">
+			<input type="text" name="address3" placeholder="Province">
+			<input type="text" name="address4" placeholder="Zip/Postal Code">
+			<input type="text" name="pno1" placeholder="phone number 01">
+			<input type="text" name="pno2" placeholder="phone number 01">
+			<input type="text" name="email" placeholder="Enter your email address">
+			<input type="text" name="message" >
+			<input type="submit" value="Submit">
+			<input type="submit" value="Cancel">
+		</form>
+	</div>
+	<br>
+</div>
+<div class="body2">
+	<br>
+	<h3>Frequently asking question</h3>
+	<dl class="faq">
+  		<dt>
+    		<button type="button" aria-expanded="false" aria-controls="faq1_desc">How will my money be sent?</button>
+  		</dt>
+  		<dd>
+    		<div id="faq1_desc" class="desc">
+      		100% of all individual donations go towards paying farmers for their produce and covering transportation costs so that food can be delivered to communities in need.
+			We make sure to lift the financial burden off of farms and food banks, who do not have the resources to fund or arrange the transportation of produce, as well as provide economic relief for farmers and truckers, who are facing job instability due to COVID-19 closures.
+			The farmers and truckers that we pay are not employees or team members of The Farmlink Project. All ZEROHUNGRY Project team members are volunteers.
+    		</div>
+  		</dd>
+  		<dt>
+    		<button type="button" aria-expanded="false" aria-controls="faq2_desc">How is the "ZeroHungry project" different from other initiatives?</button>
+  		</dt>
+  		<dd>
+   			 <div id="faq2_desc" class="desc">According to Feeding America’s national survey of affiliated food banks, 92 percent of food banks are seeing an increase in demand and 64 percent said food donations had declined. At the same time, many producers are having to waste millions of pounds of fresh produce due to difficulties shifting their supply chains and locating demand.
+			The Farmlink Project’s charitable mission is to fill this gap in the food supply chain to ensure that under-served families receive the produce they need in a time when they need it most.
+    		</div>
+  		</dd>
+  		<dt>
+    		<button type="button" aria-expanded="false" aria-controls="faq3_desc">Can you accept tax-deductible donations?</button>
+  		</dt>
+  		<dd>
+    		<div id="faq3_desc" class="desc">
+      		Yes! The Farmlink Project is a registered 501(c)(3) non-profit; all donations are tax-deductible through our Tax ID/EIN #85-1398171.
+    		</div>
+  		</dd>
+  		<dt>
+    		<button type="button" aria-expanded="false" aria-controls="faq4_desc">Where can I send a check?</button>
+  		</dt>
+  		<dd>
+    		<div id="faq4_desc" class="desc">
+      		Please make checks payable to "The ZeroHungry Project" in the Memo. Please address envelopes as follows:
+
+			The ZeroHungry Project
+			325 Arno Way
+			Los Angeles, CA 90272
+   			 </div>
+  		</dd>
+	</dl>
+</div>
+
+	<div class="footer">
+		<br>
+		<h2>Add impact to your index.</h2>
+		<h3>Subscribe to our Newsletter!</h3>
+		<div class="form1">
+			<form>
+				<input type="text" name="fname" placeholder="Enter your name here..">
+				<input type="text" name="femail" placeholder="Enter your email here..">
+				<input type="submit" name="fsignup" value="SUBSCRIBE">
+			</form>
+		</div>
+		<h5><p>CONTACT US   VOLUNTEER	 CAREERS   IN THE NEWS    MERCH</p></h5>
+		<h6>
+			<p>The ZeroHungry project is a registered program in our University.</p>
+			<p>@2021 | NSBM Green University,Pitipana,Homagama,Sri Lanka.</p>
+		</h6>
+	</div>
+
+
+	<script >
+		class DisclosureButton {
+  			constructor(buttonNode) {
+    			this.buttonNode = buttonNode;
+    			this.controlledNode = false;
+
+    			var id = this.buttonNode.getAttribute('aria-controls');
+
+    			if (id) {
+      				this.controlledNode = document.getElementById(id);
+    			}
+
+   				this.buttonNode.setAttribute('aria-expanded', 'false');
+    			this.hideContent();
+
+    			this.buttonNode.addEventListener('click', this.onClick.bind(this));
+    			this.buttonNode.addEventListener('focus', this.onFocus.bind(this));
+    			this.buttonNode.addEventListener('blur', this.onBlur.bind(this));
+  			}
+
+  			showContent() {
+   				if (this.controlledNode) {
+      			this.controlledNode.style.display = 'block';
+    			}
+  			}
+
+  			hideContent() {
+    			if (this.controlledNode) {
+      				this.controlledNode.style.display = 'none';
+    			}
+  			}
+
+  			toggleExpand() {
+    			if (this.buttonNode.getAttribute('aria-expanded') === 'true') {
+      				this.buttonNode.setAttribute('aria-expanded', 'false');
+      				this.hideContent();
+    			} 
+    			else {
+      				this.buttonNode.setAttribute('aria-expanded', 'true');
+      				this.showContent();
+    			}
+  			}
+
+
+  			onClick() {
+    			this.toggleExpand();
+  			}
+
+  			onFocus() {
+    			this.buttonNode.classList.add('focus');
+  			}
+
+  			onBlur() {
+    			this.buttonNode.classList.remove('focus');
+  			}
+		}
+
+		window.addEventListener('load',
+  			function () {
+    			var buttons = document.querySelectorAll('button[aria-expanded][aria-controls]');
+				for (var i = 0; i < buttons.length; i++) {
+      				new DisclosureButton(buttons[i]);
+   			 	}
+  			},
+  			false
+		);
+
+	</script>
+</body>
+</html>
