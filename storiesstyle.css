@@ -80,6 +80,39 @@
 			font-size:14px;
 			border-radius: 0px;
 		}
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-facebook{
+    color: white;
+}
+.fa-youtube{   
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-linkedin{
+    color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-pinterest {
+    color: white;
+}
+.fa {
+    padding: 0px;
+    font-size: 20px;
+    width: 6px;
+    text-decoration: none;
+    margin: 0 10px;
+	color: black;
+}
+.media{
+	position: initial;
+}
+
 		.footer{
 			text-align:center;
 			height: 280px;
