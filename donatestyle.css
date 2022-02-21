@@ -32,14 +32,14 @@
 }
 marquee{
 	width: 65%;
-      	font-size: 30px;
-      	font-weight: 1000;
-      	color: #8ebf42;
-      	font-family: sans-serif;
- }
+    font-size: 30px;
+    font-weight: 1000;
+    color: #8ebf42;
+    font-family: sans-serif;
+}
 .body1{
 	background-color: #437C17;
-	height: 730px;
+	height: 770px;
 }
 h2{
 	text-align: center;
@@ -47,7 +47,7 @@ h2{
 }
 .donatebox{
 	width: 300px;
-	height: 550px;
+	height: 620px;
 	display:inline-block;
 	border:2px solid black;
 	box-sizing:border-box;
@@ -83,7 +83,7 @@ h2{
 	display:inline-block;
 	border:1px solid #ccc;
 	box-sizing:border-box;
-}		
+}
 .donatebox input[type="submit"]{
 	border: 0;
 	outline: 0;
@@ -118,33 +118,33 @@ h2{
 	font-size:14px;
 	border-radius: 0px;
 }
-.fa:hover{
-   	opacity: 0.9;
+.fa:hover {
+    opacity: 0.9;
 }
 .fa-facebook{
-    	color: black;
+    color: black;
 }
 .fa-youtube{   
-    	color: black;
+    color: black;
 }
 .fa-instagram{
-    	color: black;
+    color: black;
 }
 .fa-linkedin{
-    	color: black;
+    color: black;
 }
 .fa-twitter{
-    	color: black;
+    color: black;
 }
 .fa-pinterest {
-    	color: black;
+    color: black;
 }
 .fa {
-    	padding: 0px;
-    	font-size: 20px;
-    	width: 6px;
-    	text-decoration: none;
-    	margin: 0 10px;
+    padding: 0px;
+    font-size: 20px;
+    width: 6px;
+    text-decoration: none;
+    margin: 0 10px;
 }
 .media{
 	position: initial;
