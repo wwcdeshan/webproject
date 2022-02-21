@@ -16,7 +16,7 @@
 			text-align:center;
 			text-decoration:none;
 			padding:5px;
-			margin: 3px;
+			margin: 6px;
 			font-size: 18px;
 			line-height: 25px;
 			border-radius:4px;
@@ -124,22 +124,22 @@
     opacity: 0.9;
 }
 .fa-facebook{
-    color: white;
+    color: black;
 }
 .fa-youtube{   
-    color: white;
+    color: black;
 }
 .fa-instagram{
-    color: white;
+    color: black;
 }
 .fa-linkedin{
-    color: white;
+    color: black;
 }
 .fa-twitter{
-    color: white;
+    color: black;
 }
 .fa-pinterest {
-    color: white;
+    color: black;
 }
 .fa {
     padding: 0px;
@@ -147,7 +147,6 @@
     width: 6px;
     text-decoration: none;
     margin: 0 10px;
-	color: black;
 }
 .media{
 	position: initial;
