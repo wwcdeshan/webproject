@@ -18,6 +18,7 @@
 		</div>
 		<marquee behavior="alternate">The ZeroHungry Project</marquee>
 	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
 	<div class="body1">
 	<br>
 	<h2>THE PROBLEMS OF HUNGER AND FOOD WASTE ARE MASSIVE, BUT SOLVABLE. JOIN OUR COMMUNITY OF GIVERS TO COMBAT HUNGER AND HEAL THE PLANET</h2>
@@ -67,5 +68,21 @@
 			<p>@2021 | NSBM Green University,Pitipana,Homagama,Sri Lanka.</p>
 		</h6>
 	</div>
+	<script >
+		var mybutton = document.getElementById("myBtn");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+  			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    			mybutton.style.display = "block";
+  			} 
+  			else {
+    			mybutton.style.display = "none";
+  			}
+		}
+		function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
+		}
+	</script>
 </body>
 </html>
