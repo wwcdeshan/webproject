@@ -13,13 +13,14 @@
 		<div class="container">
 			<a href="C:\Users\MX\Desktop\webproject\donate.html">DONATE &#9829</a>
 			<a href="C:\Users\MX\Desktop\webproject\connect.html">CONNECT</a>
-			<a href="C:\Users\MX\Desktop\webproject\stories.html">STORIES</a>
+			<a href="C:\Users\MX\Desktop\webproject\story.html">STORY</a>
 			<a class="active" href=" ">ABOUT</a>
 		</div>
 		<marquee behavior="alternate">The ZeroHungry Project</marquee>
 	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
 	<div class="subtopic" >
-		<br>
+	<br>		
 		<h1><b>OUR MISSION</b></h1>
 		<p>FIGHTING FOOD WASTAGE AND INSECURITY IS OUR MISSION </p>
 		<p>- SHARING SURPLUS PRODUCT IS OUR SOLUTION</p>
@@ -27,10 +28,13 @@
 	<div class="subtopic2">
 		<br>
 		<h1><b>THE TEAM</b></h1>
+		<div class="button-one">	
+			<button><a href="C:\Users\MX\Desktop\webproject\contact.html" >CONTACT US</a></button>
+		</div>
 		<p>Our team comprises more than 100 students from NSBM Green university Town. When our university campuses closed in March 2021 in response to COVID-19, many of us found ourselves back at home with the urge to help those struggling in this pandemic. The "ZeroHungry" Project was born in response to the COVID-19 pandemic, and we have plans to become a long-term and sustainable organization in the fight against food insecurity and food waste.</p>
-		<button>
-			<a href="C:\Users\MX\Desktop\webproject\donate.html" >DONATE TODAY  &#9829</a>
-		</button>
+		<div class="button-two">
+			<button><a href="C:\Users\MX\Desktop\webproject\donate.html" >DONATE TODAY  &#9829 <i class="arrow right"></i><i class="arrow right"></i></a></button>
+		</div>
 	</div>
 	<div class="team2">
 		<img src="C:\Users\MX\Desktop\webproject\image/IMAGE17.jpg" class="image">
@@ -78,7 +82,7 @@
      			<a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
         		<a href="http://www.twitter.com" class="fa fa-twitter"></a>
         		<a href="http://www.pinterest.com" class="fa fa-pinterest"></a>
-    		</div>
+    	</div>
 		<h6>
 			<p>The ZeroHungry project is a registered program in our University.</p>
 			<p>@2021 | NSBM Green University,Pitipana,Homagama,Sri Lanka.</p>
@@ -86,6 +90,14 @@
 	</div>
 
 	<script>
+		function openNav() {
+  			document.getElementById("mySidebar").style.width = "230px";
+  			document.getElementById("main").style.marginLeft = "250px";
+		}
+		function closeNav() {
+  			document.getElementById("mySidebar").style.width = "0";
+  			document.getElementById("main").style.marginLeft= "0";
+		}
 		var myIndex1 = 0;
 		carousel();
 
@@ -101,6 +113,22 @@
   		}    
   		x[myIndex1-1].style.display = "block";  
   		setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+
+
+		var mybutton = document.getElementById("myBtn");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+  			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    			mybutton.style.display = "block";
+  			} 
+  			else {
+    			mybutton.style.display = "none";
+  			}
+		}
+		function topFunction() {
+  			document.body.scrollTop = 0;
+  			document.documentElement.scrollTop = 0;
 		}
 	</script>
 </body>
