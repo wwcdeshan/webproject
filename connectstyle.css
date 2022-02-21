@@ -32,13 +32,13 @@
 }
 marquee{
 	width: 65%;
-      	font-size: 30px;
-      	font-weight: 1000;
-      	color: #8ebf42;
-      	font-family: sans-serif;
- }
+    font-size: 30px;
+    font-weight: 1000;
+	color: #8ebf42;
+    font-family: sans-serif;
+}
 .body1{
-	height: 700px;
+	height: 850px;
 	background-color: #6AA121;
 }
 .topic{
@@ -46,25 +46,24 @@ marquee{
 	text-decoration: underline;
 	font-weight: bold;
 	font-size: 36px;
-
 }
 .contactbox{
 	width: 400px;
-	height: 600px;
+	height: 770px;
 	display:inline-block;
 	border:2px solid black;
 	box-sizing:border-box;
 	color: black;
 	text-decoration: underline;
 	font-weight: bold;
-	top: 70%;
+	top: 85%;
 	left:50%;
 	position:absolute;
 	transform: translate(-50%,-50%);
 	padding: 10px 30px;
 	background-color: #78C7C7;
-}		
-.contactbox input[type="text"], input[type="password"]{
+}
+.contactbox input[type="text"], input[type="password"],textarea{
 	height: 30px;
 	width: 100%;
 	padding:12px 20px;
@@ -88,7 +87,7 @@ marquee{
 }
 .body2{
 	background-color: #FFFFCC;
-	height: 400px;
+	height: 450px;
 }
 dl.faq button {
   	margin: 0;
@@ -155,32 +154,32 @@ dl.faq button[aria-expanded="true"]::before {
 	border-radius: 0px;
 }
 .fa:hover {
-    	opacity: 0.9;
+    opacity: 0.9;
 }
 .fa-facebook{
-    	color: black;
+    color: black;
 }
 .fa-youtube{   
-    	color: black;
+    color: black;
 }
 .fa-instagram{
-    	color: black;
+    color: black;
 }
 .fa-linkedin{
-    	color: black;
+    color: black;
 }
 .fa-twitter{
-    	color: black;
+    color: black;
 }
 .fa-pinterest {
-    	color: black;
+    color: black;
 }
 .fa {
-    	padding: 0px;
-    	font-size: 20px;
-    	width: 6px;
-    	text-decoration: none;
-    	margin: 0 10px;
+    padding: 0px;
+    font-size: 20px;
+    width: 6px;
+    text-decoration: none;
+    margin: 0 10px;
 }
 .media{
 	position: initial;
@@ -207,7 +206,6 @@ dl.faq button[aria-expanded="true"]::before {
   	padding: 15px;
   	border-radius: 4px;
 }
-
 #myBtn :hover {
-	background-color: #555;
+  	background-color: #555;
 }
