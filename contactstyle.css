@@ -1,0 +1,157 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.header { 
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFCC;
+}
+.image1{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position: absolute;
+}
+  
+.header a{
+  float: right;
+  color:black;
+  border: 1px solid black;
+  text-align:center;
+  text-decoration:none;
+  padding:5px;
+  margin: 6px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius:4px;
+  background-color: #808000;
+}
+.header a:hover{
+  background-color: green;
+  color:black;
+}
+.header a.active{
+  background-color: green;
+  color:black;
+}
+marquee{
+  width: 65%;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #8ebf42;
+    font-family: sans-serif;
+}
+.container-card{
+  width: 100%;
+  background-color: #808080;
+  padding: 20px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  grid-gap: 20px;
+  font-family: 'Baloo Paaji 2', cursive;
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 300px;
+  height: 550px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  width: 300px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.card__image {
+  height: 300px;
+  width: 300px;
+}
+.form1 input[type="text"]{
+  height: 20px;
+  padding:12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border:1px solid #ccc;
+  box-sizing:border-box;
+  color: white;
+  background-color: #D5D6EA;
+} 
+.form1 input[type="submit"]{
+  height: 30px;
+  width: 100px;
+  background-color: #EAC117;
+  color:white;
+  padding:0px 0px;
+  margin:8px 0;
+  cursor:pointer;
+  font-size:14px;
+  border-radius: 0px;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-facebook{
+    color: black;
+}
+.fa-youtube{   
+    color: black;
+}
+.fa-instagram{
+    color: black;
+}
+.fa-linkedin{
+    color: black;
+}
+.fa-twitter{
+    color: black;
+}
+.fa-pinterest {
+    color: black;
+}
+.fa {
+    padding: 0px;
+    font-size: 20px;
+    width: 6px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.media{
+  position: initial;
+}
+.footer{
+  text-align:center;
+  height: 330px;
+  background-color: #046307;
+  color: white;
+  position: static;
+}
