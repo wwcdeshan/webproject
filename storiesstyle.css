@@ -16,7 +16,7 @@
 			text-align:center;
 			text-decoration:none;
 			padding:5px;
-			margin: 3px;
+			margin: 6px;
 			font-size: 18px;
 			line-height: 25px;
 			border-radius:4px;
@@ -80,7 +80,7 @@
 			font-size:14px;
 			border-radius: 0px;
 		}
-.fa:hover {
+		.fa:hover {
     opacity: 0.9;
 }
 .fa-facebook{
@@ -112,7 +112,7 @@
 .media{
 	position: initial;
 }
-.footer{
+		.footer{
 	text-align:center;
 	height: 330px;
 	background-color: #046307;
