@@ -149,9 +149,15 @@ button:hover, a:hover {
   position: initial;
 }
 .footer{
-  text-align:center;
-  height: 330px;
-  background-color: #046307;
-  color: white;
-  position: static;
+	text-align:center;
+	height: 480px;
+	background-color: #046307;
+	color: white;
 }
+.image2{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	text-align: center;
+}
+
