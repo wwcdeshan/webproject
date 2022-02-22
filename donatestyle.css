@@ -149,12 +149,6 @@ h2{
 .media{
 	position: initial;
 }
-.footer{
-	text-align:center;
-	height: 330px;
-	background-color: #046307;
-	color: white;
-}
 #myBtn {
   	display: none;
   	position: fixed;
@@ -174,3 +168,16 @@ h2{
 #myBtn :hover {
   	background-color: #555;
 }
+.footer{
+	text-align:center;
+	height: 480px;
+	background-color: #046307;
+	color: white;
+}
+.image2{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	text-align: center;
+}
+
