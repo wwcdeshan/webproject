@@ -1,0 +1,94 @@
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>We believe in a world without poverty.</p>
+  <p>Where people have the power to solve their own problems, their own way</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Waduge" style="width:100%">
+      <div class="container">
+        <h2>C.A.C.Waduge</h2>
+        <p class="title">project Leader</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Waduge.com</p>
+        <p><button class="button">Contact </button></p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="chatumal.jpeg" alt="chatumal" style="width:100%">
+      <div class="container">
+        <h2>chatumal</h2>
+        <p class="title">project member</p>
+        <p> web project members</p>
+        <p>chatumal.com</p>
+
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Nimsara" style="width:100%">
+      <div class="container">
+        <h2>W.S.M.Nimsara</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Nimsara.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="sathsarani" style="width:100%">
+      <div class="container">
+        <h2>A.K.L.Sathsarani</h2>
+        <p class="title">project Members</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Waduge.com</p>
+        <p><button class="button">Contact </button></p>
+      </div>
+    </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Gishan" style="width:100%">
+      <div class="container">
+        <h2>Gishan Sachinthka</h2>
+        <p class="title">project Member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Gishan.com</p>
+        <p><button class="button">Contact </button></p>
+      </div>
+    </div>
+<br>
+<br>
+<h2 style="text-align:center">Our mission</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/03/dreamstime_s_139565329.jpg" alt="Jane" style="width:400% ">
+      <div class="container">
+       <h2>Our misson:</h2>
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
+</html>
