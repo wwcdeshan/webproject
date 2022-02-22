@@ -49,7 +49,7 @@
 .header{
 	width: 100%;
 	height: 100px;
-	background-color: rgb(42, 42, 46);
+	background-color: white;
 	padding: 5px;
 }
 .image1{
@@ -63,7 +63,7 @@
 .header a{
 	float: right;
 	color:black;
-	border: 1px solid black;
+	border: 2px solid white;
 	text-align:center;
 	text-decoration:none;
 	padding:5px;
@@ -74,15 +74,15 @@
 	background-color: #2d9efc;
 }
 .header a:hover{
-	background-color: rgb(39, 8, 177);
-	color:rgb(250, 249, 249);
+	background-color: #ffc40c;
+	color:black;
 }
 .header a.active{
-	background-color: rgb(37, 7, 170);
+	background-color: #ffc40c;
 	color:rgb(252, 248, 248)
 }
 #donate{
-	background-color: red;
+	background-color: rgba(221, 27, 102, 0.747);
 	color: white;
 }
 h1{
