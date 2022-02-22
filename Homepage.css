@@ -87,7 +87,8 @@
 }
 h1{
 	text-align: center;
-	color: rgb(12, 216, 73);
+	color: #24A19C;
+	font-family: cursive;
 }
 form1 input[type="text"]{
 	height: 20px;
