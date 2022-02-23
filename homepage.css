@@ -1,0 +1,117 @@
+.socialmedia {
+    text-align: center;
+}
+.log{
+	position: absolute;	
+}
+.fa {
+    padding: 5px;
+    font-size: 100px;
+    width: 40px;
+    margin: 5px 2px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+   
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-google {
+    color: white;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }
+  
+  .fa-youtube {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+.hea {	
+	background-color: #043d5e;
+	width: 100%;
+	height: 40px;
+
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	padding: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.image1{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	position: absolute;
+
+}
+	
+.header a{
+	float: right;
+	color:black;
+	border: 2px solid white;
+	text-align:center;
+	text-decoration:none;
+	padding:5px;
+	margin: 10px;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius:4px;
+	background-color: #2d9efc;
+}
+.header a:hover{
+	background-color: #ffc40c;
+	color:black;
+}
+.header a.active{
+	background-color: #ffc40c;
+	color:rgb(252, 248, 248)
+}
+
+h1{
+	text-align: center;
+}
+
+
+form1 input[type="text"]{
+	height: 20px;
+	padding:12px 20px;
+	margin: 8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	color: white;
+	background-color: #D5D6EA;
+} 
+.form1 input[type="submit"]{
+	height: 30px;
+	width: 100px;
+	background-color: #f3430d;
+	color:white;
+	padding:0px 0px;
+	margin:8px 0;
+	cursor:pointer;
+	font-size:14px;
+	border-radius: 0px;
+}
+.footer{
+	text-align:center;
+	height: 600px;
+	background-color: #074994;
+	color: white;
+}
