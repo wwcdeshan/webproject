@@ -131,7 +131,7 @@ marquee{
   	background-color: #555;
 }
 .timeline-body {
-  background-color: black;
+  background-color:#470D21 ;
   font-family: Helvetica, sans-serif;
 }
 .timeline {
@@ -200,11 +200,23 @@ marquee{
 .right::after {
   	left: -16px;
 }
-.content {
+.content1 {
   	padding: 20px 30px;
-  	background-color: white;
+  	background-color:#F9E4D4 ;
   	position: relative;
   	border-radius: 6px;
+}
+.content2 {
+	padding: 20px 30px;
+	background-color:#D67D3E ;
+	position: relative;
+	border-radius: 6px;
+}
+.content3 {
+	padding: 20px 30px;
+	background-color: #9C0F48;
+	position: relative;
+	border-radius: 6px;
 }
 @media screen and (max-width: 600px) {
   	.timeline::after {
