@@ -243,7 +243,7 @@ marquee{
 .footer{
 	text-align:center;
 	height: 480px;
-	background-color: #046307;
+	background-color: #00008B;
 	color: white;
 }
 .image2{
@@ -251,5 +251,8 @@ marquee{
 	height:150px;
 	border-radius: 50%;
 	text-align: center;
+}
+h1{
+	font-family: Helvetica;
 }
 
