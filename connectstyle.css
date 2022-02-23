@@ -72,7 +72,7 @@ marquee{
 	border:1px solid #ccc;
 	box-sizing:border-box;
 }
-.contactbox input[type="submit"]{
+.contactbox input[type="submit"],input[type="reset"]{
 	border: 0;
 	outline: 0;
 	height: 30px;
