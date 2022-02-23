@@ -108,7 +108,7 @@ marquee{
 }
 .para4{
 	height: 600px;
-	background-color: #C3FDB8;
+	background-color: white;
 }
 .para4 h2{
 	color: white;
@@ -116,15 +116,37 @@ marquee{
 	font-size: 24px;
 	text-decoration: underline;
 	border: 0px solid black;
-	background-color: black;
+	background-color: #0000CD;
 	padding: 30px;
 }
 .para4 h5{
 	text-align: center;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 20px;
 	text-decoration: underline;
 	font-style: italic;
+	color:red;
+}
+.para5{
+	height: 800px;
+	background-color: white;
+}
+.para5 h2{
+	color: #FFD700;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: none;
+	border: 0px solid black;
+	background-color: 	#000080;
+	padding: 30px;
+}
+.para5 h5{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: italic;
+	color:red;
 }
 table{
 	border-collapse: collapse;
