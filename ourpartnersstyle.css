@@ -148,6 +148,27 @@ marquee{
 	font-style: italic;
 	color:red;
 }
+.para6{
+	height: 600px;
+	background-color: white;
+}
+.para6 h2{
+	color: #FFD700;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: none;
+	border: 0px solid black;
+	background-color: 	#C70039;
+	padding: 30px;
+}
+.para6 h5{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: italic;
+	color:red;
+}
 table{
 	border-collapse: collapse;
 	width: 100%;
