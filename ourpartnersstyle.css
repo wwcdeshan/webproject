@@ -44,7 +44,7 @@ marquee{
 }
 .para1{
 	height: 550px;
-	background-color: white;
+	background-color: #F0F8FF;
 }
 .para1 h2{
 	color: whitesmoke;
@@ -65,7 +65,7 @@ marquee{
 }
 .para2{
 	height: 500px;
-	background-color: white;
+	background-color: #F0F8FF;
 }
 .para2 h2{
 	color: white;
@@ -87,7 +87,7 @@ marquee{
 }
 .para3{
 	height: 550px;
-	background-color: white;
+	background-color: #F0F8FF;
 }
 .para3 h2{
 	color: darkblue;
@@ -108,7 +108,7 @@ marquee{
 }
 .para4{
 	height: 600px;
-	background-color: white;
+	background-color: #F0F8FF;
 }
 .para4 h2{
 	color: white;
@@ -129,7 +129,7 @@ marquee{
 }
 .para5{
 	height: 800px;
-	background-color: white;
+	background-color: #F0F8FF;
 }
 .para5 h2{
 	color: #FFD700;
@@ -150,15 +150,15 @@ marquee{
 }
 .para6{
 	height: 600px;
-	background-color: white;
+	background-color: #F0F8FF;
 }
 .para6 h2{
-	color: #FFD700;
+	color: #C70039;
 	text-align: center;
 	font-size: 24px;
 	text-decoration: none;
 	border: 0px solid black;
-	background-color: 	#C70039;
+	background-color: #FFD700;
 	padding: 30px;
 }
 .para6 h5{
@@ -251,7 +251,7 @@ tr{
 .footer{
 	text-align:center;
 	height: 480px;
-	background-color: #046307;
+	background-color: #00008B;
 	color: white;
 }
 .image2{
