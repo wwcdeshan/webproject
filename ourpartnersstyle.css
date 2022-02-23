@@ -72,7 +72,7 @@ marquee{
 	text-align: center;
 	font-size: 24px;
 	text-decoration: underline;
-	border: 0px solid black;
+	border: 1px solid black;
 	background-color: red;
 	padding: 30px;
 	font-family: Lucida Console;
@@ -94,7 +94,7 @@ marquee{
 	text-align: center;
 	font-size: 24px;
 	text-decoration: underline;
-	border: 0px solid black;
+	border: 1px solid black;
 	background-color: #FFC300;
 	padding: 30px;
 }
@@ -115,7 +115,7 @@ marquee{
 	text-align: center;
 	font-size: 24px;
 	text-decoration: underline;
-	border: 0px solid black;
+	border: 1px solid black;
 	background-color: #0000CD;
 	padding: 30px;
 }
@@ -136,7 +136,7 @@ marquee{
 	text-align: center;
 	font-size: 24px;
 	text-decoration: none;
-	border: 0px solid black;
+	border: 1px solid black;
 	background-color: 	#000080;
 	padding: 30px;
 }
@@ -157,7 +157,7 @@ marquee{
 	text-align: center;
 	font-size: 24px;
 	text-decoration: none;
-	border: 0px solid black;
+	border: 1px solid black;
 	background-color: #FFD700;
 	padding: 30px;
 }
