@@ -86,7 +86,7 @@ marquee{
 	color:red;
 }
 .para3{
-	height: 750px;
+	height: 550px;
 	background-color: white;
 }
 .para3 h2{
@@ -101,9 +101,10 @@ marquee{
 .para3 h5{
 	text-align: center;
 	font-weight: bold;
-	font-size: 16px;
-	text-decoration: underline;
+	font-size: 20px;
+	text-decoration: none;
 	font-style: italic;
+	color:red;
 }
 .para4{
 	height: 600px;
