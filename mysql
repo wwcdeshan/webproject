@@ -1,0 +1,76 @@
+Setting environment for using XAMPP for Windows.
+KAUSHI@DESKTOP-424D0HQ c:\xampp
+# mysql -h localhost -u root -p
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 273
+Server version: 10.4.21-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database webproject;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> use webproject;
+Database changed
+MariaDB [webproject]> create table connect(
+    -> name varchar(50) primary key,
+    -> address1 varchar(100) not null,
+    -> address2 varchar(100) not null,
+    -> address3 varchar(30) not null,
+    -> address4 int not null,
+    -> pno1 int not null;
+    -> pno2 int not null;
+    -> email varchar(50) not null,
+    -> message varchar(50) not null);
+Query OK, 0 rows affected (0.031 sec)
+
+MariaDB [webproject]> create table donate(
+    -> hname varchar(50) not null,
+    -> category varchar(20) not null,
+    -> amount int not null);
+Query OK, 0 rows affected (0.031 sec)
+
+MariaDB [webproject]> describe connect;
++----------+--------------+------+-----+---------+-------+
+| Field    | Type         | Null | Key | Default | Extra |
++----------+--------------+------+-----+---------+-------+
+| name     | varchar(50)  | NO   | PRI | NULL    |       |
+| address1 | varchar(100) | NO   |     | NULL    |       |
+| address2 | varchar(30)  | NO   |     | NULL    |       |
+| address3 | varchar(20)  | NO   |     | NULL    |       |
+| address4 | int(11)      | NO   |     | NULL    |       |
+| pno1     | int(11)      | NO   |     | NULL    |       |
+| pno2     | int(11)      | NO   |     | NULL    |       |
+| email    | varchar(50)  | NO   |     | NULL    |       |
+| message  | varchar(500) | NO   |     | NULL    |       |
++----------+--------------+------+-----+---------+-------+
+9 rows in set (0.012 sec)
+
+MariaDB [webproject]> describe donate;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| hname    | varchar(50) | NO   |     | NULL    |       |
+| category | varchar(20) | NO   |     | NULL    |       |
+| amount   | int(11)     | NO   |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.009 sec)
+
+MariaDB [webproject]> select * from connect;
++---------------------+----------+------------------------------+----------+----------+-----------+-----------+-------------------------------+---------+
+| name                | address1 | address2                     | address3 | address4 | pno1      | pno2      | email                         | message |
++---------------------+----------+------------------------------+----------+----------+-----------+-----------+-------------------------------+---------+
+| kaushika sathsarani | 29/9     | the finance estate, thoppuwa | western  |    11540 | 753620290 | 753620290 | kaushikasathsarani8@gmail.com |         |
++---------------------+----------+------------------------------+----------+----------+-----------+-----------+-------------------------------+---------+
+1 row in set (0.000 sec)
+
+MariaDB [webproject]> select * from donate;
++----------+---------------+--------+
+| hname    | category      | amount |
++----------+---------------+--------+
+| kaushika | Nursing Homes |   3441 |
++----------+---------------+--------+
+1 row in set (0.000 sec)
