@@ -69,17 +69,22 @@ marquee{
 	padding: 30px;
 }
 .table3{
-	height: 150px;
-	background-color: #C3FDB8;
+	height: 200px;
+	background-color: ##F4F9F9;
 }
 .table3 h2{
-	color: white;
+	color: #AAAAAA;
 	text-align: center;
 	font-size: 24px;
 	text-decoration: underline;
 	border: 0px solid black;
-	background-color: black;
+	background-color: #A4EBF3;
 	padding: 30px;
+	font-family: Arial Black;
+}
+p{
+	font-family: Lucida Sans Unicode;
+	font-size: 20px;
 }
 table{
 	border-collapse: collapse;
