@@ -18,7 +18,6 @@
       <div class="container">
         <h2>C.A.C.Waduge</h2>
         <p class="title">project Leader</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>Waduge.com</p>
         <p><button class="button">Contact </button></p>
       </div>
@@ -48,7 +47,6 @@
       <div class="container">
         <h2>W.S.M.Nimsara</h2>
         <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>Nimsara.com</p>
         <p><button class="button">Contact</button></p>
       </div>
