@@ -1,7 +1,25 @@
+.socialmedia {
+    text-align:center;
+  }
+  .hea {
+    background-color: #043d5e ;
+    width: 100%;
+    height:40px;
+  
+  }
+  #donate{
+    background-color: rgba(221, 27, 102, 0.747);
+    color: white;
+    }
+  h1{
+    text-align: center;
+    color: #24A19C;
+    font-family: cursive;
+    }
 .header{	
 	width: 100%;
 	height: 100px;
-	background-color: #FFFFCC;
+	background-color:white;
 }
 .image1{
 	width:100px;
@@ -20,31 +38,24 @@
 	font-size: 18px;
 	line-height: 25px;
 	border-radius:4px;
-	background-color: #808000;
+	background-color: white;
 }
 .header a:hover{
-	background-color: green;
+	background-color: yellow;
 	color:black;
 }
 .header a.active{
-	background-color: green;
+	background-color: yellow;
 	color:black;
 }
-marquee{
-	width: 65%;
-    font-size: 30px;
-    font-weight: 1000;
-    color: #8ebf42;
-    font-family: sans-serif;
-}
 .body1{
-	background-color: #FFFAFA;
-	height: 850px;
+	background-color: #437C17;
+	height: 770px;
 }
 h2{
 	text-align: center;
-	color: #130101;
-	font-family: Verdana;
+	color: white;
+	
 }
 .donatebox{
 	width: 300px;
@@ -59,15 +70,15 @@ h2{
 	position:absolute;
 	transform: translate(-50%,-50%);
 	padding: 10px 30px;
-	background-color: #FFF0F5;
+	background-color: #92C7C7;
 }
 .donatebox h4{
 	text-align: center;
 	text-decoration: none;
 	font-weight: bolt;
-	color: #270082;
+	color: white;
 	border: 0px solid black;
-	background-color:#FF0000 ;
+	background-color:#045F5F ;
 	padding: 10px;
 }
 .donatebox h5{
@@ -111,7 +122,7 @@ h2{
 .form1 input[type="submit"]{
 	height: 30px;
 	width: 100px;
-	background-color: #EAC117;
+	background-color: red;
 	color:white;
 	padding:0px 0px;
 	margin:8px 0;
@@ -123,22 +134,22 @@ h2{
     opacity: 0.9;
 }
 .fa-facebook{
-    color: black;
+    color: white;
 }
 .fa-youtube{   
-    color: black;
+    color: white;
 }
 .fa-instagram{
-    color: black;
+    color: white;
 }
 .fa-linkedin{
-    color: black;
+    color: white;
 }
 .fa-twitter{
-    color: black;
+    color: white;
 }
 .fa-pinterest {
-    color: black;
+    color: white;
 }
 .fa {
     padding: 0px;
@@ -171,7 +182,7 @@ h2{
 }
 .footer{
 	text-align:center;
-	height: 480px;
+	height: 500px;
 	background-color: #212224;
 	color: white;
 }
