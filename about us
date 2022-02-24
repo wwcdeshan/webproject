@@ -72,7 +72,6 @@
       <div class="container">
         <h2>Gishan Sachinthka</h2>
         <p class="title">project Member</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>Gishan.com</p>
         <p><button class="button">Contact </button></p>
       </div>
@@ -88,6 +87,21 @@
        <h2>Our misson:</h2>
       </div>
     </div>
+    <div class="vission">
+    <h2 style="text-align:center">Our vission</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="https://www.treehugger.com/thmb/VZ7M4TlLHi7Q8iwq8JjbPZlNQic=/2000x1335/filters:fill(auto,1)/OLIO-Handover5-Credit-AnnabelStaff-99a548648a7348c0bbfdcd060004a647.jpg" alt="Jane" style="width:50% ">
+         
+           <h2>Our visson : Sharing surplus product is our solution</h2>
+          </div>
+          </div>
+        </div>
+    
+    
+    
+      </div>
 
 
 
