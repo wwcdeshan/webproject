@@ -144,8 +144,8 @@ form1 input[type="text"]{
     }
     
     .fa-facebook {
-     
-      color: white;
+      background: #3B5998;
+        color: white;
     }
     
     .fa-twitter {
