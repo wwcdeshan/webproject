@@ -47,7 +47,7 @@ marquee{
 	background-color: #F4F9F9;
 }
 .table1 h2{
-	color: #AAAAAA;
+	color: #1C658C;
 	text-align: center;
 	font-size: 24px;
 	text-decoration: none;
@@ -60,7 +60,7 @@ marquee{
 	background-color: #F4F9F9;
 }
 .table2 h2{
-	color: #AAAAAA;
+	color: #1C658C;
 	text-align: center;
 	font-size: 24px;
 	text-decoration: underline;
@@ -73,7 +73,7 @@ marquee{
 	background-color: ##F4F9F9;
 }
 .table3 h2{
-	color: #AAAAAA;
+	color: #1C658C;
 	text-align: center;
 	font-size: 24px;
 	text-decoration: underline;
@@ -169,7 +169,7 @@ tr{
 .footer{
 	text-align:center;
 	height: 480px;
-	background-color: #046307;
+	background-color: #212224;
 	color: white;
 }
 .image2{
