@@ -1,4 +1,111 @@
-<style>
+.socialmedia {
+  text-align:center;
+}
+.log{
+position: absolute;	
+}
+.fa {
+  padding: 5px;
+  font-size: 100px;
+  width: 40px;
+  margin: 5px 2px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+ 
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.hea {	
+background-color: #043d5e;
+width: 100%;
+height: 30px;
+
+}
+.header{
+width: 100%;
+height: 100px;
+background-color: white;
+padding: 5px;
+font-family: "Lucida Console", Monaco, monospace;
+}
+.image1{
+width:100px;
+height:100px;
+border-radius: 50%;
+position: absolute;
+
+}
+
+.header a{
+float: right;
+color:black;
+border: 2px solid white;
+text-align:center;
+text-decoration:none;
+padding:5px;
+margin: 10px;
+font-size: 18px;
+line-height: 25px;
+border-radius:4px;
+background-color: #f7f7f4;
+}
+.header a:hover{
+background-color: #f3e414;
+color:black;
+}
+.header a.active{
+background-color: #faf9f8;
+color:rgb(252, 248, 248)
+}
+#donate{
+background-color: rgba(221, 27, 102, 0.747);
+color: white;
+}
+h1{
+text-align: center;
+color: #24A19C;
+font-family: cursive;
+}
+.log a{
+  float: left;
+  color:black;
+  border: 1px solid black;
+  text-align:center;
+  text-decoration:none;
+  padding:5px;
+  margin: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius:4px;
+  background-color:#ec3508 ;
+  font-family: "Lucida Console", Monaco, monospace;
+  }
     *{
         box-sizing: border-box;
     }
@@ -116,4 +223,3 @@ p2{
 color:red;
 }
 
-</style>
