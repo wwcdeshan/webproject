@@ -1,7 +1,54 @@
+.socialmedia {
+    text-align: center;
+}
+.fa {
+    padding: 5px;
+    font-size: 100px;
+    width: 40px;
+    margin: 5px 2px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+   
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-google {
+    color: white;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }
+  
+  .fa-youtube {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+.hea {	
+	background-color: #043d5e;
+	width: 100%;
+	height: 40px;
+
+}
 .header{	
 	width: 100%;
 	height: 100px;
-	background-color: #FFFFCC;
+	background-color: white;
+	padding: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 .image1{
 	width:100px;
@@ -12,23 +59,32 @@
 .header a{
 	float: right;
 	color:black;
-	border: 1px solid black;
+	border: 2px solid black;
 	text-align:center;
 	text-decoration:none;
 	padding:5px;
-	margin: 6px;
+	margin: 10px;
 	font-size: 18px;
 	line-height: 25px;
 	border-radius:4px;
-	background-color: #808000;
+	background-color: white;
 }
 .header a:hover{
-	background-color: green;
+	background-color: #ffc40c;
 	color:black;
 }
 .header a.active{
-	background-color: green;
-	color:black;
+	background-color: #ffc40c;
+	color:rgb(252, 248, 248);
+}
+#donate{
+	background-color: rgba(221, 27, 102, 0.747);
+	color: white;
+}
+h1{
+	text-align: center;
+	color: #24A19C;
+	font-family: cursive;
 }
 marquee{
 	width: 65%;
@@ -43,7 +99,7 @@ marquee{
 }
 .topic{
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: bold;
 	font-size: 36px;
 	color:#125C13;
@@ -147,7 +203,7 @@ dl.faq button[aria-expanded="true"]::before {
 .form1 input[type="submit"]{
 	height: 30px;
 	width: 100px;
-	background-color: #EAC117;
+	background-color: #f70d04;
 	color:white;
 	padding:0px 0px;
 	margin:8px 0;
@@ -159,25 +215,25 @@ dl.faq button[aria-expanded="true"]::before {
     opacity: 0.9;
 }
 .fa-facebook{
-    color: black;
+    color: white;
 }
 .fa-youtube{   
-    color: black;
+    color: white;
 }
 .fa-instagram{
-    color: black;
+    color: white;
 }
 .fa-linkedin{
-    color: black;
+    color: white;
 }
 .fa-twitter{
-    color: black;
+    color: white;
 }
 .fa-pinterest {
-    color: black;
+    color: white;
 }
 .fa {
-    padding: 0px;
+    padding: 10px;
     font-size: 20px;
     width: 6px;
     text-decoration: none;
@@ -196,7 +252,7 @@ dl.faq button[aria-expanded="true"]::before {
   	font-weight: bold;
   	border: none;
   	outline: none;
-  	background-color: black;
+  	background-color: rgb(247, 9, 9);
   	color: white;
   	cursor: pointer;
   	padding: 15px;
@@ -207,14 +263,9 @@ dl.faq button[aria-expanded="true"]::before {
 }
 .footer{
 	text-align:center;
-	height: 480px;
-	background-color: #00008B;
+	height: 650px;
+	background-color: #212224;
 	color: white;
 }
-.image2{
-	width:150px;
-	height:150px;
-	border-radius: 50%;
-	text-align: center;
-}
+
 
