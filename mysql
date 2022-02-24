@@ -74,3 +74,36 @@ MariaDB [webproject]> select * from donate;
 | kaushika | Nursing Homes |   3441 |
 +----------+---------------+--------+
 1 row in set (0.000 sec)
+
+
+MariaDB [webproject]> create table signin(
+    -> email varchar(20) not null,
+    -> psw varchar(15) not null,
+    -> psw_repeat varchar(15) not null);
+Query OK, 0 rows affected (0.051 sec)
+
+MariaDB [webproject]> create table login(
+    -> username varchar(20) not null,
+    -> psw varchar(15) not null);
+Query OK, 0 rows affected (0.034 sec)
+
+MariaDB [webproject]> describe signin;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| email      | varchar(20) | NO   |     | NULL    |       |
+| psw        | varchar(15) | NO   |     | NULL    |       |
+| psw_repeat | varchar(15) | NO   |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+3 rows in set (0.015 sec)
+
+MariaDB [webproject]> describe login;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| username | varchar(20) | NO   |     | NULL    |       |
+| psw      | varchar(15) | NO   |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+2 rows in set (0.011 sec)
+
+MariaDB [webproject]>
