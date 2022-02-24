@@ -8,11 +8,11 @@
 <body>
 <?php
 	$host="localhost";
-	$email=$_POST['email'];
-	$password=$_POST['psw'];
+	$uname=$_POST['uname'];
+	$psw=sha1($_POST['psw']);
 
 	$con=mysqli_connect($host,"root","","webproject");
-	$sql="INSERT INTO login(email,psw,) VALUES('$email','$password',) ";
+	$sql="INSERT INTO login(username,psw,) VALUES('$uname','$psw',) ";
 	if($con){
 		mysqli_query($con,$sql);
 	}
