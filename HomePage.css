@@ -60,6 +60,9 @@
 	position: absolute;
 
 }
+.image3{
+    padding: 28em;
+}
 	
 .header a{
 	float: right;
@@ -72,7 +75,7 @@
 	font-size: 18px;
 	line-height: 25px;
 	border-radius:4px;
-	background-color: #2d9efc;
+	background-color: white;
 }
 .header a:hover{
 	background-color: #ffc40c;
@@ -172,7 +175,7 @@ form1 input[type="text"]{
 	font-size: 18px;
 	line-height: 25px;
 	border-radius:4px;
-	background-color:#3399aa ;
+	background-color:#f71a0a ;
 	font-family: "Lucida Console", Monaco, monospace;
   }
 body, html {
@@ -232,7 +235,7 @@ body, html {
   }
   
   .whyhungry-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.agrivi.com/wp-content/uploads/2016/08/Blog-Zero-Hunger.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/612892/pexels-photo-612892.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
