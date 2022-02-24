@@ -39,13 +39,14 @@ marquee{
 }
 .body1{
 	height: 850px;
-	background-color: #6AA121;
+	background-color: #FEFFDE;
 }
 .topic{
 	text-align: center;
 	text-decoration: underline;
 	font-weight: bold;
 	font-size: 36px;
+	color:#125C13;
 }
 .contactbox{
 	width: 400px;
@@ -61,7 +62,7 @@ marquee{
 	position:absolute;
 	transform: translate(-50%,-50%);
 	padding: 10px 30px;
-	background-color: #78C7C7;
+	background-color: #f1d3af;
 }
 .contactbox input[type="text"], input[type="password"],textarea{
 	height: 30px;
@@ -77,7 +78,7 @@ marquee{
 	outline: 0;
 	height: 30px;
 	width: 100%;
-	background: blue;
+	background: #125C13;
 	color: #fff;
 	padding:0px 0px;
 	margin:8px 0;
@@ -86,8 +87,8 @@ marquee{
 	border-radius: 0px;
 }
 .body2{
-	background-color: #FFFFCC;
-	height: 450px;
+	background-color: #E8E1D9;
+	height: 650px;
 }
 dl.faq button {
   	margin: 0;
@@ -206,7 +207,7 @@ dl.faq button[aria-expanded="true"]::before {
 .footer{
 	text-align:center;
 	height: 480px;
-	background-color: #046307;
+	background-color: #00008B;
 	color: white;
 }
 .image2{
